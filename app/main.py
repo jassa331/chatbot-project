@@ -1,7 +1,7 @@
 from app.graph.chatbot_graph import app
 
 def run_chatbot():
-    print("AI Chatbot Started 🚀")
+    print("AI Chatbot Started")
 
     while True:
         question = input("\nYou: ")
