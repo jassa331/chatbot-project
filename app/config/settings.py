@@ -1,3 +1,3 @@
-OPENAI_API_KEY = "your_openai_api_key"
+OPENAI_API_KEY = "GROQ_API_KEY"
 
-MODEL_NAME = "gpt-3.5-turbo"
+MODEL_NAME = "llama-3.3-70b-versatile"

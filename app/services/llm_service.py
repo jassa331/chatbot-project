@@ -1,7 +1,7 @@
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 from app.config.settings import OPENAI_API_KEY, MODEL_NAME
 
-llm = ChatOpenAI(
+llm = ChatGroq(
     api_key=OPENAI_API_KEY,
     model=MODEL_NAME
 )
